@@ -25,7 +25,7 @@ driver = webdriver.Chrome("chromedriver.exe", chrome_options=chrome_options)
 
 
 driver.implicitly_wait(10)
-driver.get("https://nftrade.com/")
+driver.get("https://nftrade.com/marketplace")
 
 
 print(input("End Current performance ..... :"))
